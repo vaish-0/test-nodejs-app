@@ -3,7 +3,7 @@
 class HelloWorld {
   constructor(options) {
       this.options = options || {};
-      this._greeting = this.options.greeting || 'Hello World!';
+      this._greeting = this.options.greeting || ';
   }
 
   get greeting() {
